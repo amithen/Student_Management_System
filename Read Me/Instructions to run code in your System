@@ -1,0 +1,12 @@
+Install GIT in your system
+----------------------------------
+command for Installing GIT 
+
+pip install GIT
+
+
+Create a folder to clone the code from github and clone
+---------------------------------------------------
+command for cloneing code
+
+git clone https://github.com/amithen/Student_Management_System.git
