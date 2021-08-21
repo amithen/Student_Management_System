@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "studentName": 1,
+    "studentname": "Amith",
+    "termSelection": "one",
+    "maths": 100,
+    "science": 100,
+    "history": 89,
+    "totalMark": 289,
+    "createdOn": "2021-08-22T07:00:00Z"
+}

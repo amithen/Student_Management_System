@@ -1,0 +1,8 @@
+	{
+        "id": 1,
+        "name": "Amith",
+        "age": 26,
+        "gender": "MALE",
+        "reportingTeacher": 1,
+        "teachername": "Jithesh"
+    }
