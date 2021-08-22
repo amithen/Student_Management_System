@@ -1,14 +1,14 @@
 from django.db import models
-from django.core.validators import MaxValueValidator,MinValueValidator
+from django.core.validators import MaxValueValidator,MinValueValidator,RegexValidator
 
 
 class Teacher(models.Model):
-    teacherName = models.CharField(max_length=20)
+    teacherName = models.CharField(max_length=20,unique=True,validators=[RegexValidator(r'^[a-zA-Z ]*$', 'Only alphabets and space characters are allowed.')])
     def __str__(self):
         return self.teacherName
 
 class Student(models.Model):
-    name = models.CharField(max_length=20)
+    name = models.CharField(max_length=20,unique=True,validators=[RegexValidator(r'^[a-zA-Z ]*$', 'Only alphabets and space characters are allowed.')])
     age = models.IntegerField()
 
     genderChoice = [
